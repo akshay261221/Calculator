@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         int n1 = Integer.parseInt(et1.getText().toString());
         int n2 = Integer.parseInt(et2.getText().toString());
-        int result = n1 * n2;
+        int result = n1 / n2;
 
         et3.setText("Divide Value" + result);
     }
